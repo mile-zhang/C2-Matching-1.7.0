@@ -3,7 +3,7 @@
 ### Build
 ```bash
     ./make.sh         # build
-    python test.py    # run examples and gradient check
+    python test.py    # run examples and gradient check 
 ```
 
 ### An Example
@@ -55,10 +55,11 @@ This is an adaption of the official [Deformable-ConvNets](https://github.com/msr
 However, when I set the offset to 0.5, it passes. I'm still wondering what cause this problem. Is it because some
 non-differential points? </s>
 
-Update: all gradient check passes with double precision.
+Update: all gradient check passes with double precision. 
 
-Another issue is that it raises `RuntimeError: Backward is not reentrant`. However, the error is very small (`<1e-7` for
-float `<1e-15` for double),
+Another issue is that it raises `RuntimeError: Backward is not reentrant`. However, the error is very small (`<1e-7` for 
+float `<1e-15` for double), 
 so it may not be a serious problem (?)
 
 Please post an issue or PR if you have any comments.
+    
