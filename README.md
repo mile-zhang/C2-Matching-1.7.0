@@ -12,6 +12,10 @@ This repository contains the implementation of the following paper:
 [[Project Page](https://yumingj.github.io/projects/C2_matching)]
 [[WR-SR Dataset](https://drive.google.com/drive/folders/1Pt7blJA2cK4oQ6yWB9tcHerZ4pwICmxp?usp=sharing)]
 
+## Fix
+1. module/C2-Matching/mmsr/models/archs/DCNv2
+2. module/C2-Matching/mmsr/models/archs/dcn/src
+
 ## Contents
 1. [Architecture](#architecture)
 2. [Dependencies and Installation](#dependencies)
