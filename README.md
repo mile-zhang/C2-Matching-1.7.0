@@ -61,7 +61,7 @@ Run nvcc --version
 
    ```bash
    cd C2-Matching
-   conda install pytorch=1.4.0 torchvision cudatoolkit=10.0 -c pytorch
+   conda install pytorch=1.7.0 torchvision cudatoolkit=11.1 -c pytorch
    pip install mmcv==0.4.4
    pip install -r requirements.txt
    ```
