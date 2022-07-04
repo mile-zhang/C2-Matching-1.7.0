@@ -33,13 +33,13 @@ This repository contains the implementation of the following paper:
 - Python == 3.7
 - PyTorch == 1.7
 - CUDA 11.1 
-```shell
-# Driver CUDA version 
-Run nvidia-smi
+   ```shell
+   # Driver CUDA version 
+   Run nvidia-smi
 
-# Runtime CUDA version
-Run nvcc --version
-```  
+   # Runtime CUDA version
+   Run nvcc --version
+   ```  
 - GCC 5.4.0
 - anaconda 
 - opencv-python-headless
