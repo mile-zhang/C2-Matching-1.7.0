@@ -14,7 +14,7 @@ This repository contains the implementation of the following paper:
 
 ## Contents
 1. [Architecture](#architecture)
-2. [Dependencies and Installation](#Dependencies and Installation)
+2. [Dependencies and Installation](#dependencies)
 3. [Train](#train)
 4. [Test](#test)
 5. [Results](#results)
@@ -24,8 +24,7 @@ This repository contains the implementation of the following paper:
 ![overall_structure](./assets/framework.png)
 
 
-
-## Dependencies and Installation
+## Dependencies
 
 - Python == 3.7
 - PyTorch == 1.7
@@ -149,7 +148,7 @@ All logging files in the training process, *e.g.*, log message, checkpoints, and
    python mmsr/train.py -opt "options/train/stage3_restoration_mse.yml"
    ```
 
-## Visual Results
+## Results
 
 For more results on the benchmarks, you can directly download our C2-Matching results from [here](https://drive.google.com/drive/folders/1-WE-f8XyG_MEZY77IGyS2le-UmDwhou9?usp=sharing).
 
