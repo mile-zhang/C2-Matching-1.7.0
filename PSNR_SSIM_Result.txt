@@ -5,13 +5,6 @@ CUFED5 (gan)
 2022-07-04 03:19:05,061.061 - INFO: # Validation CUFED5 # PSNR: 2.5485e+01 # PSNR_Y: 2.7155e+01 # SSIM_Y: 8.0529e-01.
 
 －－－－－－－－－－－－－－－－－－－－－－－－
-WRSR (mse)
-2022-07-04 06:42:43,237.237 - INFO: # Validation WR-SR # PSNR: 2.6942e+01 # PSNR_Y: 2.8322e+01 # SSIM_Y: 8.0135e-01.
-
-WRSR (gan)
-2022-07-04 07:01:21,270.270 - INFO: # Validation WR-SR # PSNR: 2.6477e+01 # PSNR_Y: 2.7801e+01 # SSIM_Y: 7.8043e-01.
-
-－－－－－－－－－－－－－－－－－－－－－－－－
 SUN80 (mse)
 2022-07-05 10:47:07,355.355 - INFO: # Validation SUN80 # PSNR: 2.8742e+01 # PSNR_Y: 3.0124e+01 # SSIM_Y: 8.1625e-01.
 
@@ -31,3 +24,10 @@ Manga109 (mse)
 
 Manga109 (gan)
 2022-07-05 12:18:48,874.874 - INFO: # Validation Manga109 # PSNR: 2.7730e+01 # PSNR_Y: 2.9580e+01 # SSIM_Y: 8.9050e-01.
+
+－－－－－－－－－－－－－－－－－－－－－－－－
+WRSR (mse)
+2022-07-04 06:42:43,237.237 - INFO: # Validation WR-SR # PSNR: 2.6942e+01 # PSNR_Y: 2.8322e+01 # SSIM_Y: 8.0135e-01.
+
+WRSR (gan)
+2022-07-04 07:01:21,270.270 - INFO: # Validation WR-SR # PSNR: 2.6477e+01 # PSNR_Y: 2.7801e+01 # SSIM_Y: 7.8043e-01.
