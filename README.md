@@ -29,9 +29,13 @@ This repository contains the implementation of the following paper:
 
 
 ## Dependencies
-
+- anaconda 
 - Python == 3.7
 - PyTorch == 1.7
+- torchvision==0.8.0
+- numpy == 1.21.5
+- opencv-python-headless
+
 - CUDA 11.1 
    ```shell
    # Driver CUDA version 
@@ -41,8 +45,6 @@ This repository contains the implementation of the following paper:
    Run nvcc --version
    ```  
 - GCC 5.4.0
-- anaconda 
-- opencv-python-headless
 
 1. Clone Repo
 
@@ -50,23 +52,22 @@ This repository contains the implementation of the following paper:
    git clone https://github.com/mile-zhang/C2-Matching-1.7.0
    ```
 
-1. Create Conda Environment
+2. Create Conda Environment
 
    ```bash
    conda create --name c2_matching python=3.7
    conda activate c2_matching
    ```
 
-1. Install Dependencies
+3. Install Dependencies
 
    ```bash
    cd C2-Matching
    conda install pytorch=1.7.0 torchvision cudatoolkit=11.1 -c pytorch
    pip install mmcv==0.4.4
-   pip install -r requirements.txt
    ```
 
-1. Install MMSR and DCNv2
+4. Install MMSR and DCNv2
 
     ```bash
     python setup.py develop
@@ -74,11 +75,10 @@ This repository contains the implementation of the following paper:
     python setup.py build develop
     ```
 
-
 ## Dataset Preparation
 
-- Train Set: [CUFED Dataset](https://drive.google.com/drive/folders/1hGHy36XcmSZ1LtARWmGL5OK1IUdWJi3I)
-- Test Set: [WR-SR Dataset](https://drive.google.com/drive/folders/16UKRu-7jgCYcndOlGYBmo5Pp0_Mq71hP?usp=sharing), [CUFED5 Dataset](https://drive.google.com/file/d/1Fa1mopExA9YGG1RxrCZZn7QFTYXLx6ph/view)
+- Train Set: [CUFED](https://drive.google.com/drive/folders/1hGHy36XcmSZ1LtARWmGL5OK1IUdWJi3I)
+- Test Set: [WR-SR](https://drive.google.com/drive/folders/16UKRu-7jgCYcndOlGYBmo5Pp0_Mq71hP?usp=sharing), [CUFED5](https://drive.google.com/file/d/1Fa1mopExA9YGG1RxrCZZn7QFTYXLx6ph/view),  [Sun80-GT](http://cs.brown.edu/~lbsun/SRproj2012/Sun_Hays_SR_groundtruth.zip),  [Sun80-Ref](http://cs.brown.edu/~lbsun/SRproj2012/Sun_Hays_SR_scenematches.zip)
 
 Please refer to [Datasets.md](datasets/DATASETS.md) for pre-processing and more details.
 
