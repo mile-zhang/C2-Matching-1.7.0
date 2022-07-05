@@ -29,7 +29,7 @@ This repository contains the implementation of the following paper:
 
 
 ## Dependencies
-- anaconda 
+- Anaconda 
 - Python == 3.7
 - PyTorch == 1.7
 - torchvision==0.8.0
