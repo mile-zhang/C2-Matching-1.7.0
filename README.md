@@ -47,7 +47,7 @@ This repository contains the implementation of the following paper:
 1. Clone Repo
 
    ```bash
-   git clone git@github.com:yumingj/C2-Matching.git
+   git clone https://github.com/mile-zhang/C2-Matching-1.7.0
    ```
 
 1. Create Conda Environment
