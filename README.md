@@ -29,7 +29,7 @@ This repository contains the implementation of the following paper:
 
 
 ## Dependencies
-- anaconda 
+- Anaconda 
 - Python == 3.7
 - PyTorch == 1.7
 - torchvision==0.8.0
@@ -153,6 +153,8 @@ All logging files in the training process, *e.g.*, log message, checkpoints, and
    ```
 
 ## Results
+Author (yumingj /
+C2-Matching ) results in [Google Drive](https://drive.google.com/drive/folders/1-WE-f8XyG_MEZY77IGyS2le-UmDwhou9).
 
 For more results on the benchmarks, you can directly download our C2-Matching results from [here](https://drive.google.com/drive/folders/1-WE-f8XyG_MEZY77IGyS2le-UmDwhou9?usp=sharing).
 
