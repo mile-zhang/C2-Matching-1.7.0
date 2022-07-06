@@ -20,10 +20,10 @@ Urban100 (gan)
 
 －－－－－－－－－－－－－－－－－－－－－－－－
 Manga109 (mse)
-2022-07-05 12:06:17,375.375 - INFO: # Validation Manga109 # PSNR: 2.8389e+01 # PSNR_Y: 3.0335e+01 # SSIM_Y: 9.1002e-01.
+2022-07-06 12:39:41,345.345 - INFO: # Validation Manga109 # PSNR: 2.8504e+01 # PSNR_Y: 3.0484e+01 # SSIM_Y: 9.1044e-01.
 
 Manga109 (gan)
-2022-07-05 12:18:48,874.874 - INFO: # Validation Manga109 # PSNR: 2.7730e+01 # PSNR_Y: 2.9580e+01 # SSIM_Y: 8.9050e-01.
+2022-07-06 12:54:41,201.201 - INFO: # Validation Manga109 # PSNR: 2.7822e+01 # PSNR_Y: 2.9699e+01 # SSIM_Y: 8.9075e-01.
 
 －－－－－－－－－－－－－－－－－－－－－－－－
 WRSR (mse)
