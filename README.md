@@ -78,7 +78,7 @@ This repository contains the implementation of the following paper:
 ## Dataset Preparation
 
 - Train Set: [CUFED](https://drive.google.com/drive/folders/1hGHy36XcmSZ1LtARWmGL5OK1IUdWJi3I)
-- Test Set: [WR-SR](https://drive.google.com/drive/folders/16UKRu-7jgCYcndOlGYBmo5Pp0_Mq71hP?usp=sharing), [CUFED5](https://drive.google.com/file/d/1Fa1mopExA9YGG1RxrCZZn7QFTYXLx6ph/view),  [Sun80-GT](http://cs.brown.edu/~lbsun/SRproj2012/Sun_Hays_SR_groundtruth.zip),  [Sun80-Ref](http://cs.brown.edu/~lbsun/SRproj2012/Sun_Hays_SR_scenematches.zip)
+- Test Set: [WR-SR](https://drive.google.com/drive/folders/16UKRu-7jgCYcndOlGYBmo5Pp0_Mq71hP?usp=sharing), [CUFED5](https://drive.google.com/file/d/1Fa1mopExA9YGG1RxrCZZn7QFTYXLx6ph/view),  [Sun80-GT](https://cs.brown.edu/~lbsun/SRproj2012/Sun_Hays_SR_groundtruth.zip),  [Sun80-Ref](https://cs.brown.edu/~lbsun/SRproj2012/Sun_Hays_SR_scenematches.zip)
 
 Please refer to [Datasets.md](datasets/DATASETS.md) for pre-processing and more details.
 
