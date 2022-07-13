@@ -83,11 +83,11 @@ def create_dataloader(dataset, dataset_opt, opt=None, sampler=None):
             num_workers=num_workers,
             sampler=sampler,
             drop_last=True,
-            pin_memory=False)
+            pin_memory=False) # if you want to promote your gpu utilization，you can set Pin_memory=True
     else:  # validation
         return torch.utils.data.DataLoader(
             dataset,
             batch_size=1,
             shuffle=False,
             num_workers=1,
-            pin_memory=False)
+            pin_memory=False) # if you want to promote your gpu utilization，you can set Pin_memory=True
