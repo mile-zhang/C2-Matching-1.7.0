@@ -378,6 +378,8 @@ def gradient_penalty_loss(discriminator, real_data, fake_data, mask=None):
 
     batch_size = real_data.size(0)
     alpha = real_data.new_tensor(torch.rand(batch_size, 1, 1, 1))
+    #alpha=alpha.cuda() # To Fix this problem (Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!)。 you must change alpha(tensor) cpu to gpu
+    #print(alpha.is_cuda,fake_data.is_cuda,real_data.is_cuda) # show tensor in cuda or cpu (True = cuda , False = cpu)
 
     # interpolate between real_data and fake_data
     interpolates = alpha * real_data + (1. - alpha) * fake_data
