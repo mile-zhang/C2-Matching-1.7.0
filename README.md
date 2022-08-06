@@ -1,7 +1,9 @@
-# C2-Matching-PyTorch-1.7.0 (change from <a href="https://github.com/yumingj/C2-Matching">yumingj/C2-Matching</a> )
-
+# C2-Matching-PyTorch-1.7.0
 ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
 ![pytorch 1.7.0](https://img.shields.io/badge/pytorch-1.7.0-green.svg?style=plastic)
+
+> **Note**
+> This repository modify from <a href="https://github.com/yumingj/C2-Matching">yumingj/C2-Matching</a> 
 
 This repository contains the implementation of the following paper:
 > **Robust Reference-based Super-Resolution via C2-Matching**<br>
